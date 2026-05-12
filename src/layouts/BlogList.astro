@@ -12,7 +12,13 @@ const { title, description, pageTitle, pageSubtitle } = Astro.props;
 ---
 
 <Base title={title} description={description}>
-  <h1 class="page-title">{pageTitle}</h1>
-  {pageSubtitle && <p class="page-subtitle">{pageSubtitle}</p>}
-  <slot />
+  <div class="blog-hero">
+    <h1><span class="gradient-text">AI Recaps</span> Blog</h1>
+    {pageSubtitle && <p>{pageSubtitle}</p>}
+  </div>
+  <div class="posts-section">
+    <div class="posts-grid">
+      <slot />
+    </div>
+  </div>
 </Base>

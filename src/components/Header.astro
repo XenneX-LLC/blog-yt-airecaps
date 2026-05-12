@@ -1,19 +1,20 @@
 ---
 const navLinks = [
   { href: '/blog', label: 'Blog' },
-  { href: 'https://airecaps.com', label: 'App' },
 ];
 ---
 
 <header>
   <div class="container">
     <a href="/blog" class="logo">
-      AI Recaps
+      <div class="logo-icon">▶</div>
+      <span class="logo-text">AI <span>Recaps</span></span>
     </a>
     <nav>
       {navLinks.map(link => (
         <a href={link.href}>{link.label}</a>
       ))}
+      <a href="https://airecaps.com" class="nav-cta">Get the App</a>
     </nav>
   </div>
 </header>
