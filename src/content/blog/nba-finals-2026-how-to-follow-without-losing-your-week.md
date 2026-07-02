@@ -1,6 +1,6 @@
 ---
 title: "Game 1 Is Tonight. Here's How to Actually Follow the 2026 NBA Finals Without Losing Your Week to ESPN."
-description: "Knicks in the Finals for the first time since 1999. Every sports outlet just tripled their output. Here's what's worth watching and what's just volume."
+description: "Knicks in the Finals for the first time since 1999. Every outlet tripled their output. Here's what's worth watching and what's just volume."
 pubDate: 2026-06-03
 tags: ["NBA Finals", "sports", "NBA", "New York Knicks", "AI Recaps"]
 author: "AI Recaps"
