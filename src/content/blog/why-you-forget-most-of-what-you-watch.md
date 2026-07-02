@@ -1,6 +1,6 @@
 ---
 title: "Why You Forget Most of What You Watch (and How AI Actually Helps)"
-description: "You watched the video. You nodded along. Two days later it's gone. Here's the science behind why — and how AI summarization tools are quietly solving it."
+description: "You watched the video, nodded along, and two days later it's gone. Here's the science behind why — and how AI summarization is quietly solving it."
 pubDate: 2026-05-02
 author: "AI Recaps Team"
 tags: ["learning", "ai", "productivity", "youtube", "retention"]

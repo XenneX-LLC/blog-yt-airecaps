@@ -1,6 +1,6 @@
 ---
 title: "Wimbledon Is 10 Days Out. Here's How to Follow Without Setting an Alarm for Every Match."
-description: "Wimbledon starts June 29. The same approach that worked for WWDC and the World Cup works here: know who to watch, which rounds matter, and how to stay in the conversation without live-watching 4 hours of tennis on a Tuesday."
+description: "Wimbledon starts June 29. Know who to watch, which rounds matter, and how to stay in the conversation without live-watching 4 hours of tennis on a Tuesday."
 pubDate: "2026-06-19"
 tags: ["wimbledon", "tennis", "sports", "summer", "content strategy"]
 author: "AI Recaps"

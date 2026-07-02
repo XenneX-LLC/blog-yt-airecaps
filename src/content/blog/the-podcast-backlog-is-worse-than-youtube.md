@@ -1,6 +1,6 @@
 ---
 title: The Podcast Backlog Is Worse Than YouTube. At Least YouTube Has Thumbnails.
-description: The same backlog problem that plagues YouTube is worse for podcasts — longer episodes, no visual cues, no auto-transcripts. Here's how AI summaries change that.
+description: "The same backlog problem that plagues YouTube is worse for podcasts — longer episodes, no visual cues, no auto-transcripts. Here's how AI summaries help."
 pubDate: 2026-05-15
 tags: ["Podcasts", "AI Summaries", "Productivity", "Content Backlog"]
 author: "AI Recaps"

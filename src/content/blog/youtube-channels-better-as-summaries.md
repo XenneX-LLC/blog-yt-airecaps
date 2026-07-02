@@ -1,6 +1,6 @@
 ---
 title: "10 YouTube Channels That Are Better as Summaries Than Full Watches"
-description: "These channels produce some of the best ideas on the internet — buried inside 2-hour episodes. Here's how to get the insight without the time commitment."
+description: "These channels produce some of the best ideas online — buried inside 2-hour episodes. How to get the insight without the time commitment."
 pubDate: 2026-05-05
 author: "AI Recaps Team"
 tags: ["youtube", "channels", "ai summary", "productivity", "learning"]

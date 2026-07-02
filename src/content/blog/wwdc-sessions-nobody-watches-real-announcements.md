@@ -1,6 +1,6 @@
 ---
 title: "The Real WWDC Announcements Aren't in the Keynote. They're in the Sessions Nobody Watches."
-description: "The keynote is marketing. The 100+ session videos Apple drops after WWDC are where the features that will actually affect you in 18 months are buried. Here's how to find them without watching 40 hours of content."
+description: "The keynote is marketing. The 100+ sessions Apple drops after WWDC are where the features that affect you in 18 months are buried. Here's how to find them."
 pubDate: 2026-06-09
 tags: ["Apple", "WWDC", "AI News", "Tech", "Keynote"]
 author: "AI Recaps"

@@ -1,6 +1,6 @@
 ---
 title: "The Tour de France Starts Saturday. Here's How to Follow 21 Stages Without Quitting Your Job."
-description: "The Tour runs July through mid-July with 21 stages and generates hours of coverage daily. Here's how to stay connected to one of the biggest sporting events of the summer without watching five hours of cycling on a Wednesday."
+description: "The Tour runs through mid-July with 21 stages and hours of daily coverage. How to follow the biggest race of summer without watching cycling on a Wednesday."
 pubDate: "2026-06-26"
 tags: ["tour de france", "cycling", "sports", "summer", "viewing strategy"]
 author: "AI Recaps"

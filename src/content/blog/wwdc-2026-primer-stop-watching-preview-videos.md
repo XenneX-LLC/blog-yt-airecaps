@@ -1,6 +1,6 @@
 ---
 title: "WWDC Is 16 Days Away. Stop Watching Preview Videos."
-description: "Tim Cook's final WWDC keynote is June 8. Here's the 3-minute context that makes the whole thing make sense — without watching 40 hours of preview content."
+description: "Tim Cook's final WWDC keynote is June 8. The 3-minute context that makes the whole thing make sense without watching 40 hours of preview content."
 pubDate: 2026-05-23
 tags: ["Apple", "WWDC", "iOS 27", "AI News", "Apple Intelligence"]
 author: "AI Recaps"

@@ -1,6 +1,6 @@
 ---
 title: "Wimbledon Starts in 6 Days. Here's How to Watch Without Destroying Your Sleep Schedule."
-description: "Wimbledon opens June 30 and the schedule is brutal for US viewers — marquee matches run 7am–2pm ET. Here's how to follow the tournament without setting a 6am alarm for two weeks straight."
+description: "Wimbledon opens June 30 and marquee matches run 7am–2pm ET. How to follow the tournament without setting a 6am alarm for two weeks straight."
 pubDate: "2026-06-24"
 tags: ["wimbledon", "tennis", "sports", "viewing strategy", "summer"]
 author: "AI Recaps"

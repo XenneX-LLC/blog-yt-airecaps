@@ -1,6 +1,6 @@
 ---
 title: "The Sports Weekend Digest: Everything You Need to Know Before the 4th of July"
-description: "Friday is July 4 and the sports calendar is stacked — Wimbledon second round, Tour de France hitting the first mountain stages, World Cup knockout round action, and a full MLB slate. Here's the compact brief so you can walk into the weekend knowing what's happening."
+description: "July 4 weekend: Wimbledon, Tour de France mountain stages, World Cup knockouts, and a full MLB slate. Here's the compact brief."
 pubDate: "2026-07-01"
 tags: ["wimbledon", "tour de france", "world cup", "MLB", "sports digest", "fourth of july"]
 author: "AI Recaps"

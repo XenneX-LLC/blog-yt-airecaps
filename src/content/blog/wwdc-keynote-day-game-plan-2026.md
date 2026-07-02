@@ -1,6 +1,6 @@
 ---
 title: "WWDC Drops in 48 Hours. Here's Your Game Plan for Keynote Day Itself."
-description: "Not what to expect from the keynote — how to actually handle June 8 without losing your entire day to Apple content. What to watch live, what to wait for, and what to skip."
+description: "How to handle June 8 without losing your day to Apple content — what to watch live, what to wait for, and what to skip."
 pubDate: 2026-06-06
 tags: ["Apple", "WWDC", "Keynote", "AI News", "Tech"]
 author: "AI Recaps"

@@ -1,6 +1,6 @@
 ---
 title: "You Don't Have to Watch Every World Cup Game to Have an Opinion"
-description: "Most World Cup 'fans' are actually casual observers who want to sound informed at the watch party. AI Recaps is built for exactly this — the confident-but-busy person who wants the signal without sitting through every 90-minute match."
+description: "Most World Cup 'fans' are casual observers who want to sound informed at the watch party. AI Recaps gives you the signal without every 90-minute match."
 pubDate: 2026-06-13
 tags: ["World Cup", "Soccer", "FIFA", "AI News", "Sports"]
 author: "AI Recaps"
