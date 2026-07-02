@@ -1,6 +1,6 @@
 ---
 title: "Summer Watch Lists: How to Build a YouTube Queue That Doesn't Destroy an Afternoon"
-description: "Summer means more downtime, which means more YouTube — and more lost afternoons. Here's how to build a watch queue that actually serves your interests instead of the algorithm's."
+description: "More downtime means more YouTube — and more lost afternoons. Here's how to build a watch queue that serves your interests, not the algorithm's."
 pubDate: "2026-06-19"
 tags: ["youtube", "summer", "watch list", "productivity", "content strategy"]
 author: "AI Recaps"
