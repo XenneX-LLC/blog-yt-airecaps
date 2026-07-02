@@ -1,6 +1,6 @@
 ---
 title: "The Best YouTube Channels to Follow the 4th of July Weekend"
-description: "Fourth of July weekend has a predictable YouTube content cycle — live fireworks streams, American history deep dives, and holiday cooking. Here's what's actually worth queuing up, and where to find it."
+description: "Fourth of July weekend brings fireworks streams, history deep dives, and holiday cooking to YouTube. Here's what's actually worth queuing up."
 pubDate: "2026-06-27"
 tags: ["fourth of july", "youtube", "holiday", "fireworks", "american history"]
 author: "AI Recaps"
