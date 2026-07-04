@@ -1,6 +1,6 @@
 ---
 title: "Happy 4th. Here's Everything Happening in Sports Today So You Don't Have to Choose."
-description: "It's July 4th and the sports calendar is packed — World Cup knockouts, Wimbledon first-week matches, a Tour de France stage. Here's the glance-at-your-phone digest so you can stay on top of it between cookout and fireworks."
+description: "July 4th sports at a glance: World Cup knockouts, Wimbledon first-week matches, and a Tour de France stage — the digest to check between cookout and fireworks."
 pubDate: "2026-07-04"
 tags: ["fourth of july", "world cup", "wimbledon", "tour de france", "sports digest"]
 author: "AI Recaps"
