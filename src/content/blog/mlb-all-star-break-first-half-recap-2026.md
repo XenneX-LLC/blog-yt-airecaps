@@ -1,6 +1,6 @@
 ---
 title: "MLB's All-Star Break Is This Week. Here's the First-Half Story in Five Minutes."
-description: "The All-Star break is a natural checkpoint. Here's the compact first-half recap — standout performances, surprise contenders, and the teams that faded — for anyone catching up before the break."
+description: "The All-Star break is a natural checkpoint. The compact first-half recap — standout performances, surprise contenders, and the teams that faded."
 pubDate: "2026-07-14"
 tags: ["mlb", "all-star game", "baseball", "recap", "sports"]
 author: "AI Recaps"

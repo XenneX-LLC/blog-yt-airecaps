@@ -1,6 +1,6 @@
 ---
 title: "MLB Trade Deadline Week Is Here. Here's the Digest to Bookmark for July 31."
-description: "The trade deadline is one of the most dramatic days on the sports calendar even without a live game. Here's the compact guide to following the rumors, the deals, and what actually matters."
+description: "The trade deadline is one of the most dramatic days on the sports calendar, even without a live game. The compact guide to the rumors and deals that matter."
 pubDate: "2026-07-25"
 tags: ["mlb", "trade deadline", "baseball", "sports digest"]
 author: "AI Recaps"

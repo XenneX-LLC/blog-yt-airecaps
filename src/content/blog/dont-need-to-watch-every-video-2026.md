@@ -1,6 +1,6 @@
 ---
 title: "You Don't Need to Watch Every Video From a Channel You Love"
-description: "Subscribing to a channel doesn't mean signing a contract to watch everything it publishes. Here's why the completionist guilt is optional, and what to do instead."
+description: "Subscribing to a channel doesn't mean signing a contract to watch everything it publishes. The completionist guilt is optional — here's what to do instead."
 pubDate: "2026-07-30"
 tags: ["youtube", "subscriptions", "productivity", "content overload"]
 author: "AI Recaps"
