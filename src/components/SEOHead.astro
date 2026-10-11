@@ -25,17 +25,24 @@ const siteName = 'AI Recaps';
 // /blog/blog/... during static build — deduplicate the doubled /blog prefix.
 const deduplicatedPath = Astro.url.pathname.replace(/^\/blog\/blog/, '/blog');
 const canonical = canonicalURL || (siteURL + deduplicatedPath);
-const ogImage = image || `${siteURL}/og-default.png`;
+// Resolve post images to absolute URLs for scrapers. The fallback is the main
+// site's OG image; there is no og-default.png on airecaps.com.
+const defaultImage = `${siteURL}/assets/images/screenshots/desktop-summary-detail-dark.png`;
+const ogImage = image ? new URL(image, Astro.site ?? siteURL).href : defaultImage;
 const fullTitle = `${title} | ${siteName} Blog`;
 
 const jsonLD = {
   "@context": "https://schema.org",
-  "@type": type === 'article' ? "Article" : "WebSite",
+  "@type": type === 'article' ? "BlogPosting" : "WebSite",
   "headline": title,
   "description": description,
   "url": canonical,
+  ...(type === 'article' && {
+    "mainEntityOfPage": { "@type": "WebPage", "@id": canonical },
+    "image": [ogImage]
+  }),
   ...(pubDate && { "datePublished": pubDate.toISOString() }),
-  ...(updatedDate && { "dateModified": updatedDate.toISOString() }),
+  ...((updatedDate || pubDate) && { "dateModified": (updatedDate || pubDate)!.toISOString() }),
   "author": {
     "@type": "Organization",
     "name": siteName,
@@ -44,14 +51,12 @@ const jsonLD = {
   "publisher": {
     "@type": "Organization",
     "name": siteName,
-    "url": siteURL
-  },
-  ...(image && {
-    "image": {
+    "url": siteURL,
+    "logo": {
       "@type": "ImageObject",
-      "url": image
+      "url": `${siteURL}/assets/icon/icon-512x512.png`
     }
-  })
+  }
 };
 ---
 

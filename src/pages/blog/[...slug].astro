@@ -7,10 +7,24 @@ export async function getStaticPaths() {
   const sorted = posts.sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
   );
+  // Related posts: most shared tags (case-insensitive), ties broken by recency.
+  // `sorted` is newest first and Array.sort is stable, so recency is preserved.
+  const tagSets = new Map(sorted.map(p => [p.id, new Set(p.data.tags.map(t => t.toLowerCase()))]));
+  const relatedFor = (post: typeof sorted[number]) => {
+    const own = tagSets.get(post.id)!;
+    return sorted
+      .filter(p => p.id !== post.id)
+      .map(p => ({ p, shared: [...tagSets.get(p.id)!].filter(t => own.has(t)).length }))
+      .sort((a, b) => b.shared - a.shared)
+      .slice(0, 3)
+      .map(({ p }) => ({ slug: p.id, title: p.data.title, description: p.data.description }));
+  };
+
   return sorted.map((post, index) => ({
     params: { slug: post.id },
     props: {
       post,
+      relatedPosts: relatedFor(post),
       prevPost: sorted[index + 1]
         ? { slug: sorted[index + 1].id, title: sorted[index + 1].data.title }
         : null,
@@ -21,7 +35,7 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post, prevPost, nextPost } = Astro.props;
+const { post, prevPost, nextPost, relatedPosts } = Astro.props;
 const { Content, headings } = await render(post);
 
 // Get raw body text for reading time estimate
@@ -40,6 +54,7 @@ const rawContent = post.body ?? '';
   headings={headings}
   prevPost={prevPost}
   nextPost={nextPost}
+  relatedPosts={relatedPosts}
   rawContent={rawContent}
 >
   <Content />

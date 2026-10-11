@@ -612,6 +612,58 @@ article h1 {
   line-height: 1.35;
 }
 
+/* ── Post CTA + related posts ───────────────── */
+.post-cta {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background-color: var(--bg-card);
+}
+
+.post-cta p {
+  margin: 0;
+}
+
+.post-cta-link {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.related-posts {
+  margin-top: 2.5rem;
+}
+
+.related-posts h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.related-posts li {
+  padding: 0.875rem 1.125rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.related-posts li a {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.related-posts li p {
+  margin: 0.3rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
 /* ── Footer ─────────────────────────────────── */
 footer {
   border-top: 1px solid var(--border-soft);

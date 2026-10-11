@@ -14,6 +14,7 @@ interface Props {
   headings: { depth: number; slug: string; text: string }[];
   prevPost?: { slug: string; title: string } | null;
   nextPost?: { slug: string; title: string } | null;
+  relatedPosts?: { slug: string; title: string; description: string }[];
   rawContent?: string;
 }
 
@@ -29,6 +30,7 @@ const {
   headings,
   prevPost,
   nextPost,
+  relatedPosts = [],
   rawContent = '',
 } = Astro.props;
 
@@ -97,17 +99,35 @@ const readingTime = wordCount > 0 ? Math.ceil(wordCount / 200) : null;
       </div>
     </article>
 
+    <aside class="post-cta">
+      <p>Skip the watch time. <a href="https://airecaps.com/?utm_source=blog&utm_medium=post_cta" class="post-cta-link">Try AI Recaps free →</a></p>
+    </aside>
+
+    {relatedPosts.length > 0 && (
+      <section class="related-posts">
+        <h2>Related posts</h2>
+        <ul>
+          {relatedPosts.map(post => (
+            <li>
+              <a href={`/blog/${post.slug}/`}>{post.title}</a>
+              <p>{post.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
     {(prevPost || nextPost) && (
       <nav class="post-nav">
         <div class="post-nav-inner">
           {prevPost ? (
-            <a href={`/blog/blog/${prevPost.slug}/`} class="post-nav-link post-nav-prev">
+            <a href={`/blog/${prevPost.slug}/`} class="post-nav-link post-nav-prev">
               <span class="post-nav-label">← Previous</span>
               <span class="post-nav-title">{prevPost.title}</span>
             </a>
           ) : <span />}
           {nextPost ? (
-            <a href={`/blog/blog/${nextPost.slug}/`} class="post-nav-link post-nav-next">
+            <a href={`/blog/${nextPost.slug}/`} class="post-nav-link post-nav-next">
               <span class="post-nav-label">Next →</span>
               <span class="post-nav-title">{nextPost.title}</span>
             </a>
